@@ -1,0 +1,138 @@
+.links img{ /* STYLING OF HOME PAGE BEGINS HERE*/
+    object-fit: cover; /* COVERS THE AREA WITHOUT THE IMAGE STRETCHING*/
+    height: 800px;
+    width: 100%;
+}
+.links{
+    position: relative; /* POSITIONING OTHER ELEMENTS IN IT*/
+}
+
+.links nav{ 
+    display: flex; /*PUTS LINK SIDE BY SIDE*/
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    gap: 30px;  /*PUTS SPACE BAETWEEN THE LINKS*/
+    position: absolute; /*POSITIONS ELEMENTS WHERE IT SHOULD BE IN THE RELATIVE*/
+}
+
+.links nav a{
+ border-radius: 50px; 
+  padding: 10px;
+ text-decoration: none;
+    font-size: 20px;
+    color: goldenrod;
+    background-color: dimgray;
+}
+.links a:hover{
+    color: dimgrey;
+    background-color: goldenrod;
+} /*STYLING OF HOME PAGE ENDS*/
+
+
+ h1{ /*STYLING HEADINGS*/
+    font-family: cursive;
+    margin: 50px;
+}   /*STYLING OF HEADINGS END*/
+
+/* STYLING ORDERED LIST AND IMAGE*/
+.lists{
+    font-family: cursive;
+} 
+.lists img{
+    display: flex;
+    justify-content: flex-end;
+}  /* STYLING ORDERED LIST ENDS*/
+
+
+/* STYLING THE MOTTO*/
+nav p{
+    font-family: cursive;
+    font-size: 35px;
+    margin: 50px;
+} /* ENDS HERE*/
+
+img{ /* STYLING THE PIC BESIDE THE SUMMARY*/
+    width: 400px;
+    height: 600px;
+    border-radius: 100px;
+}   /* ENDS HERE*/
+
+
+/* STYLING THE PICS BEFORE THE ABOUT US PAGE*/
+.pics{
+   display: flex;
+   gap: 100px; 
+   margin: 50px;
+}
+.pics img{
+    width: 400px;
+    height: auto;
+    border-radius: 100px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgb(148, 110, 63);
+}/* ENDS HERE*/
+
+/* STYLING ABOUT US PAGE*/
+.summary{ 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.summary p{
+    font-size: 25px;
+}
+.summary img{
+    width: 800px;
+    box-shadow: 10px 10px 10px rgb(148, 110, 63);
+    margin-right: 100px;
+} /* ENDS HERE*/
+
+/* STYLING THE ALUMNI PAGE*/
+.alumni{
+    display: flex;
+    gap: 100px;
+    margin: 50px;
+}
+.alumni img{
+    width: 400px;
+    height: 500px;
+    margin: 50px;
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px rgb(148, 110, 63);
+}
+.alumni ol{
+    font-family: cursive;
+     font-size: 25px;
+     float: left;
+     margin-right: 20px;
+} /* ENDS HERE*/
+
+ /*CONTACT STYLING BEGINS HERE*/
+.contact{ 
+    background-color: dimgrey;
+    color: goldenrod;
+    font-size: 20px;
+    border-radius: 50px;
+    
+}
+.contact a{
+    border-radius: 150px;
+    color: goldenrod;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.contact p{
+    font-size: 20px; 
+}
+.info{
+    display: flex;
+}
+.info a:hover{
+   color: dimgrey;
+    background-color: goldenrod;
+}
+/* CONTACT STYLING ENDS HERE */
+
+
