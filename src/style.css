@@ -42,6 +42,7 @@
 .lists img{
     display: flex;
     justify-content: flex-end;
+    overflow-x: hidden;
 }  /* STYLING ORDERED LIST ENDS*/
 
 
@@ -66,7 +67,7 @@ img{ /* STYLING THE PIC BESIDE THE SUMMARY*/
    margin: 50px;
 }
 .pics img{
-    width: 400px;
+    width: 300px;
     height: auto;
     border-radius: 100px;
     border: 1px solid black;
@@ -83,7 +84,8 @@ img{ /* STYLING THE PIC BESIDE THE SUMMARY*/
     font-size: 25px;
 }
 .summary img{
-    width: 800px;
+    width: 700px;
+    height: 500px;
     box-shadow: 10px 10px 10px rgb(148, 110, 63);
     margin-right: 100px;
 } /* ENDS HERE*/
@@ -113,8 +115,6 @@ img{ /* STYLING THE PIC BESIDE THE SUMMARY*/
     background-color: dimgrey;
     color: goldenrod;
     font-size: 20px;
-    border-radius: 50px;
-    
 }
 .contact a{
     border-radius: 150px;
@@ -124,7 +124,8 @@ img{ /* STYLING THE PIC BESIDE THE SUMMARY*/
 }
 
 .contact p{
-    font-size: 20px; 
+    font-size: 20px;
+    margin-left: 20px; 
 }
 .info{
     display: flex;
